@@ -1,0 +1,106 @@
+/*{
+    padding: 20px;
+    margin: 20px;
+    /*box-sizing: border-box;
+}*/
+
+
+body{
+    background-color: silver;
+}
+h1{
+    color: indianred;
+    text-align: center;
+    text-shadow: lawngreen;
+}
+h1:hover{
+    color: blue;
+    text-decoration: underline;
+}
+/*CSS GRID
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1fr,12);
+    grid-template-rows: 40px 1fr 20px;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "n n n m m m m m m m m m"
+    "f f f f f f f f f f f f"
+    ;
+}
+
+.grid-area{
+    
+}*/
+/* navigation bar*/
+
+#nav ul{
+    
+   list-style-type: none;
+   margin: 2px;
+   padding: 2px;
+   background-color: black;
+   overflow: hidden;
+}
+
+#nav li{
+    float: right;
+
+}
+
+li a{
+    
+    display: block;
+    color: white;
+    
+    padding: 16px;
+    text-decoration: none;
+    border-left: 2px dotted red;
+    
+}
+
+li a:hover{
+    color: green;
+    background-color: white;
+}
+
+/*DROPDOWN*/
+
+.dropdown{
+    display: block;
+    position: relative;
+    max-width: 0;
+
+}
+
+.container{
+    display: none;
+    position: absolute;
+    background-color: seagreen;
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+    
+}
+
+.container li{
+    list-style-type: none;
+}
+
+.container a{
+    text-align: right
+    border-bottom: 1px solid red;
+    padding: 2px;
+
+}
+.dropdown:hover .container{
+    display: block;
+    position: absolute;
+    /*
+    text-align: left;
+    border-bottom: 1px solid red;*/
+}
+
+
+
